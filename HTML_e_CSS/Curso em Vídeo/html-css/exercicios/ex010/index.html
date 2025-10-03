@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplismente aumente e diminua o tamanho do seu navegador.</p>
+
+    <!-- Tags:
+           <picture> = permite colocar sources (imagens)
+           <source>  = faz ele trocar de imagem a imagem, especificando a largura máxima ou mínima
+             parâmetro obrigatório: scrset="(caminho)" -> define o caminho da imagem
+             parâmetros opcionais: media="(max-width ou min-width: (tamanho))" -> especifica até que tamanho da tela a imagem aparecerá
+                                   type="(__)" -> ajuda o navegador a saber o tipo da imagem
+    -->
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexível">
+    </picture>
+
+    <!-- Tags:
+           <audio>  = permite colocar souces (áudios)
+             parâmetros: src="caminho"  -> define o caminho do áudio
+                         controls       -> adiciona controles como play, pause, volume
+                         autoplay       -> faz o áudio começar assim que estiver completo
+                         loop           -> faz com que o áudio fique tocando infinitamente
+                         muted          -> inicia o áudio em modo mudo
+                         preload="(__)" -> controla o áudio a ser carregado
+                            auto: o áudio será carregado totalmente junto com a página
+                            metadata: só serão carregados os metadados junto com a página
+                            none: nada será carregado junto com a página
+           <source> = vai de um em um, até chegar no áudio compatível ao navegador do usuário
+             parâmetros: mesma coisa do da imagem   -->
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <source src="midia/guanacast-33.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio.<a href="midia/guanacast-33.mp3">Clique aqui para baixar o arquivo mp3</a></p>
+    </audio>
+</body>
+</html>

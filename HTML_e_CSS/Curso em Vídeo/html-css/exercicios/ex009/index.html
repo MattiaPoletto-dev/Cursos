@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+</head>
+<body>
+    <!-- Tag:
+             <a> = link externo
+               parâmetro obrigatório: href="(link)" -> caminho para o link
+               parâmetro opcional: rel="external" -> indicar que o link é externo (não é importante colocar)
+                                   target="(__)" -> dá algumas opções a abertura do link (principal: _blank -> abre em outra aba)
+    -->
+    <h1>Usando links externos</h1>
+    <p>Você pode acessar o meu <a href="https://gustavoguanabara.github.io" rel="external" target="_blank">repositório público no GitHub</a></p>
+    <p>Você também pode acessar o meu <a href="https://youtube.com/cursoemvideo" rel="external" target='_blank'>canal gratuito no YouTube</a></p>
+
+    <!-- Tag:
+             <a> = link interno
+               parâmetro obrigatório: href="(nome do página feita no HTML)"
+                 OBS: especificar o caminho
+    -->
+    <h1>Usando links internos</h1>
+    <p>Esta é a primeira página do site. Se você quiser, pode acessar a minha <a href="pag02.html" rel="next">segunda página</a></p>
+    <p>Você também pode acessar a nossa <a href="noticias/pag03.html" rel="next" target="_self">página de notícias</a></p>
+
+    <!-- Baixar arquivo-->
+    <!--   parâmetro obrigatório: href="(caminho)" -> necessário para dizer o caminho para o arquivo
+                                  download="(nome do arquivo que aparecerá para o usuário)"
+           parâmetro opcional:    type="(__)" -> especifica o que o arquivo para o navegador
+    -->
+    <h1>Links para download</h1>
+    <ul>
+        <li><a href="PDFs/fabula-PDF.pdf" download="fabula-PDF.pdf" type="application/pdf">Baixar o livro em PDF</a></li>
+    </ul>
+</body>
+</html>

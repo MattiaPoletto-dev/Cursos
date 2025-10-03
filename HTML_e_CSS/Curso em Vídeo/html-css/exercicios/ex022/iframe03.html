@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframe</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            height: 450px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eos mollitia sunt, doloribus repudiandae harum delectus ad enim natus rem necessitatibus, amet ducimus, cum sequi. Minima aperiam vel quae maiores.</p>
+
+    <ul>
+        <li><a href="paginas_extra/pagina01.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas_extra/pagina02.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas_extra/pagina03.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit optio cupiditate, dolor, labore quam ab quo perspiciatis voluptatem ad iure natus doloribus saepe tempore ullam nisi porro sapiente suscipit molestias? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non illo accusamus voluptatum vero ab unde animi eligendi ex similique dolor molestiae, a alias esse aliquid fugiat consequuntur distinctio, in quaerat.</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima </h1><p> Hello, World!!!!!!!!!!!!!!</p><img src='imagens/cursoemvideo.png'>"> frameborder="1">
+        <p>Infelizmente seu navegador não é compatível com isso.</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi cum ipsam veniam neque ex excepturi non accusantium ab quasi sed. Dolorem aliquam unde ex voluptatibus natus dolore pariatur aperiam aspernatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis esse laborum ipsa, vero modi similique tenetur nulla. Consequatur ut beatae, vel odit quam labore porro dignissimos, ullam, id saepe eaque?</p>
+</body>
+</html>

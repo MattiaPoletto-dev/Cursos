@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Flexível</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+        source, img {
+            display: block;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+    <p>Você está vendo a imagem completa? Experimente ampliar o tamanho da sua janela para aproveitar a melhor experiência &#x1F913;</p>
+    <picture>
+        <source media="(min-width: 1250px)" srcset="imagens/paisagem-1200.png">
+        <source media="(min-width: 790px)" srcset="imagens/paisagem-740.png">
+        <img src="imagens/paisagem-265.png" alt="Foto mulher de braços abertos">
+    </picture>
+</body>
+</html>
