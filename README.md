@@ -1,14 +1,12 @@
 # Projetos feitos em cursos
 
-Aqui serão encontrados, de forma organizada, determinada tecnologia que estudei durante determinado curso
+Aqui estão, de forma organizada, as tecnologias que estudei durante diferentes cursos.
 
-Stacks:
-   - HTML/CSS
+## Stacks
 
-       - Curso em Vídeo
+### HTML/CSS
+- Curso em Vídeo
+- Alura
 
-       - Alura
-     
-   - Python
-
-       - Curso em Vídeo
+### Python
+- Curso em Vídeo
