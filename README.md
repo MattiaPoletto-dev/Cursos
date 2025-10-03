@@ -3,8 +3,8 @@
 Aqui serão encontrados, de forma organizada, determinada tecnologia que estudei durante determinado curso
 
 Stacks:
-   - HTML/CSS
+    HTML/CSS
       --> Curso em Vídeo
       --> Alura
-   - Python
+    Python
       --> Curso em Vídeo
