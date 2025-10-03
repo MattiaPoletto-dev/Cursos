@@ -1,10 +1,13 @@
 # Projetos com o Curso em Vídeo
 
-## Projeto Android
+## Diretórios
+### html-css
+Aqui tem todos os exercícios e desafios propostos pelo curso
+### Projeto Android
 https://mattiapoletto-dev.github.io/Cursos/html_e_css/curso_em_video/projeto-android
-## Projeto Cordel
+### Projeto Cordel
 https://mattiapoletto-dev.github.io/Cursos/html_e_css/curso_em_video/projeto-cordel
-## Projeto Social
+### Projeto Social
 https://mattiapoletto-dev.github.io/Cursos/html_e_css/curso_em_video/projeto-social
-## Projeto Login
+### Projeto Login
 https://mattiapoletto-dev.github.io/Cursos/html_e_css/curso_em_video/projeto-login
