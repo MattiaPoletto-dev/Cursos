@@ -5,9 +5,10 @@ Aqui serão encontrados, de forma organizada, determinada tecnologia que estudei
 Stacks:
    - HTML/CSS
 
-      Curso em Vídeo
-      Alura
+       - Curso em Vídeo
+
+       - Alura
      
    - Python
 
-     Curso em Vídeo
+       - Curso em Vídeo
